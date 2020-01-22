@@ -1,0 +1,18 @@
+/*Tipos de parametros do Express
+- Query Params - quase sempre utilizados no metodo GET
+  ex: busca, passa parametros traduzidos na URL
+  (filtros, ordenacao, paginacao, etc)
+  request.query
+- Route Params: quase sempre PUT e DELETE.
+  fica apenas na rota, precisa de uma / apos a rota, que precede
+  o paramtro
+  (identificar um recurso na alteracao ou remocao)
+  request.params
+-Body Params: Envia dados pelo corpo da requisicao
+  ex: JSON
+  (Dados para criacao ou alteracao de um registro)
+  request.body
+*/
+
+Models sao representacoes de entidades dentro da app
+INformacoes dentro do banco de dados
